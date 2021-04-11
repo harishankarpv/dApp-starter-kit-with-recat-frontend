@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link as LinkR } from 'react-router-dom';
 import styled from 'styled-components'
 import {SiNintendogamecube} from 'react-icons/si'
 import {Container } from '../../globalStyles'
@@ -13,7 +13,22 @@ export const Nav = styled.nav`
     position: sticky;
     top: 0;
     z-index: 999;
+
+    @media screen and (max-width: 960px) {
+        transition:  0.8s all ease;
+    }
 `;
+
+// export const NavbarConatiner = styled.div`
+    
+//     height: 80px;
+//     display: flex;
+//     justify-content: space-between;
+//     z-index: 1;
+//     width: 100%auto;
+//     padding: 0 24px;
+//     max-width: 1100px;
+// `;
 
 export const NavbarConatiner = styled(Container)`
     
@@ -24,7 +39,7 @@ export const NavbarConatiner = styled(Container)`
     ${Container}
 `;
 
-export const NavLogo = styled(Link)`
+export const NavLogo = styled(LinkR)`
     color: #EEF4F9;
     justify-self: flex-start;
     cursor: pointer;
@@ -32,6 +47,9 @@ export const NavLogo = styled(Link)`
     font-size: 2rem;
     display: flex;
     align-items:center;
+    margin-left:24px;
+    font-weight: bold;
+
 `;
 
 export const NavIcon = styled(SiNintendogamecube)`
@@ -57,6 +75,7 @@ export const NavMenu = styled.ul`
     align-items: center;
     list-style: none;
     text-align: center;
+    margin-right: -22px;
 
     @media screen and (max-width: 960px) {
         display: flex;
@@ -89,13 +108,18 @@ export const NavItem = styled.li`
     }
 `;
 
-export const NavLinks = styled(Link)`
+export const NavLinks = styled(LinkR)`
     color:#fff;
     display: flex;
     align-items: center;
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
+    cursor: pointer;
+
+    &.active {
+        border-bottom: 3px solid #15034A;
+    }
 
     @media screen and (max-width :960px){
         text-align: center;
@@ -111,7 +135,23 @@ export const NavLinks = styled(Link)`
     }
 `;
 
+// export const NavBtn = styled.nav`
+//     display:flex;
+//     align-items: center;
+
+//     @media screen and (max-width: 960px){
+//         display: none;
+//         justify-content: center;
+//         align-items: center;
+//         width: 100%;
+//         height: 120px;
+//     }
+
+// `;
+
 export const NavItemBtn = styled.li`
+    display:flex;
+    align-items: center;
     @media screen and (max-width: 960px){
         display: flex;
         justify-content: center;
@@ -121,7 +161,8 @@ export const NavItemBtn = styled.li`
     }
 `;
 
-export const NavBtnLink = styled(Link)`
+export const NavBtnLink = styled(LinkR)`
+    border-radius: 50px;
     display:flex;
     justify-content: center;
     align-items:center;
@@ -131,4 +172,5 @@ export const NavBtnLink = styled(Link)`
     width: 100%;
     border: none;
     outline:none;
+    cursor: pointer;
 `;

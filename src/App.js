@@ -5,6 +5,7 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './Pages/HomePage/Home'
 import SignUp from './Pages/Signup/Signup'
 import Footer from './components/Footer/Footer';
+import Wallet from './components/Wallet/Wallet'
 import { Products } from './components';
 
 function App() {
@@ -16,8 +17,8 @@ function App() {
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/products' exact component={Products} />
-        {/* <Route path='/wallet' exact component={Wallet} /> */}
-        <Route path='/signup' exact component={SignUp} />
+        <Route path='/wallet' exact component={Wallet} />
+        <Route path='/sign-up' exact component={SignUp} />
       </Switch>
 
       <Footer />
@@ -29,5 +30,3 @@ function App() {
 export default App;
 
 
-// 50 minutes into the tutorial
-// Screwd up SignUp button

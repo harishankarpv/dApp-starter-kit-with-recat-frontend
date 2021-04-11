@@ -1,5 +1,5 @@
 import React from 'react'
-import {homeObjOne, homeObjTwo} from './Data'
+import {homeObjOne, homeObjTwo, homeObjThree} from './Data'
 import { InfoSection, Products } from '../../components'
 
 
@@ -8,7 +8,7 @@ const Home = () => {
         <>
             <InfoSection {...homeObjOne}/>
             <InfoSection {...homeObjTwo}/>
-            {/* <InfoSection {...homeObjThree}/> */}
+            <InfoSection {...homeObjThree}/>
             <Products />
 
         </>
