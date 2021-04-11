@@ -22,32 +22,32 @@ export const homeObjTwo = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'Why SecurePay?',
-    headline: 'Extremely quick onboarding process',
+    headline1: 'SecurePay connects you to the world of DeFi & Ethereum.',
     description:
-      "Consensus and security guaranteed by the Ethereum Blockchain",
-    buttonLabel: 'Learn More',
+      "SecurePay is a free, client-side interface helping you interact with the Ethereum blockchain. Our easy-to-use, open-source platform allows you to generate wallets, interact with smart contracts, and so much more. SecurePay allows you to import and manage all of the Ethereum accounts that you have control of.",
+    buttonLabel: 'See Our Products',
     imgStart: 'true',
     img: require('../../images/ethereum2.svg').default,
     alt: 'Vault',
     start: ''
   };
   
-  export const homeObjThree = {
-    primary: true,
-    lightBg: false,
-    lightTopLine: true,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'How SecurePay works?',
-  //   headline1: 'Secure Transactions',
-    headline2: '-----',
-    description:'------',
-    buttonLabel: 'Get Started',
-    imgStart: '',
-    img: require('../../images/blockchain.svg').default,
-    alt: 'Image',
-    start: ''
-  };
+  // export const homeObjThree = {
+  //   primary: true,
+  //   lightBg: false,
+  //   lightTopLine: true,
+  //   lightText: true,
+  //   lightTextDesc: true,
+  //   topLine: 'How SecurePay works?',
+  // //   headline1: 'Secure Transactions',
+  //   // headline2: '-----',
+  //   description:'A wallet is a collection of accounts, and an account is a combination of an address and its associated private key.',
+  //   buttonLabel: 'See Our Products',
+  //   imgStart: '',
+  //   img: require('../../images/blockchain.svg').default,
+  //   alt: 'Image',
+  //   start: ''
+  // };
   
 //   export const homeObjFour = {
 //     primary: true,

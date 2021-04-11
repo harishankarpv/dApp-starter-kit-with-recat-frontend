@@ -20,7 +20,7 @@ const InfoSection = ({lightBg, imgStart, lightTopLine, lightText, lightTextDesc,
                                 <Heading lightText={lightText}>{headline1}</Heading>
                                 <Heading lightText={lightText}>{headline2}</Heading>
                                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                                <Link to='/wallet'>
+                                <Link to='/products'>
                                     <Button big fontBig primary={primary}>
                                     {buttonLabel}</Button>
                                 </Link>

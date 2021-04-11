@@ -14,8 +14,8 @@ import {
   ProductsCardInfo,
   ProductsCardIcon,
   ProductsCardPlan,
-  // ProductsCardCost,
-  // ProductsCardLength,
+  ProductsCardCost,
+  ProductsCardLength,
   ProductsCardFeatures,
   ProductsCardFeature
 } from './Products.elements';
@@ -33,33 +33,33 @@ function Products() {
                   <GiReceiveMoney />
                 </ProductsCardIcon>
                 <ProductsCardPlan>Buy </ProductsCardPlan>
-                {/* <ProductsCardCost>$99.99</ProductsCardCost> */}
-                {/* <ProductsCardLength>per month</ProductsCardLength> */}
+                {/* <ProductsCardCost>Get some ETH</ProductsCardCost> */}
+                <ProductsCardLength>Get Some Eth</ProductsCardLength>
                 <ProductsCardFeatures>
-                  <ProductsCardFeature>100 New Users</ProductsCardFeature>
-                  <ProductsCardFeature>$10,000 Budget</ProductsCardFeature>
-                  <ProductsCardFeature>Retargeting analytics</ProductsCardFeature>
+                 
+                  <ProductsCardLength>ETH is the native crypto of Ethereum. You’ll need some ETH in your wallet to use Ethereum applications.</ProductsCardLength>
                 </ProductsCardFeatures>
-                <Button primary>Get Started</Button>
+                <Button primary>Get Some Eth</Button>
               </ProductsCardInfo>
             </ProductsCard>
-            <ProductsCard to='/sign-up'>
+            <ProductsCard to='/wallet'>
               <ProductsCardInfo>
                 <ProductsCardIcon>
                   <FaWallet />
                 </ProductsCardIcon>
                 <ProductsCardPlan>Wallet </ProductsCardPlan>
                 {/* <ProductsCardCost>$299.99</ProductsCardCost> */}
-                {/* <ProductsCardLength>per month</ProductsCardLength> */}
+                <ProductsCardLength>The key to your digital future</ProductsCardLength>
                 <ProductsCardFeatures>
-                  <ProductsCardFeature>1000 New Users</ProductsCardFeature>
-                  <ProductsCardFeature>$50,000 Budget</ProductsCardFeature>
-                  <ProductsCardFeature>Lead Gen Analytics</ProductsCardFeature>
+                  <ProductsCardLength>Wallets give access to your funds and Ethereum applications. Only you should have access to your wallet.</ProductsCardLength>
+                  {/* <ProductsCardFeature>Wallets give access to your funds and Ethereum applications. Only you should have access to your wallet.</ProductsCardFeature> */}
+                  {/* <ProductsCardFeature>$50,000 Budget</ProductsCardFeature>
+                  <ProductsCardFeature>Lead Gen Analytics</ProductsCardFeature> */}
                 </ProductsCardFeatures>
-                <Button primary>Get Started</Button>
+                <Button primary>Set Up Wallet</Button>
               </ProductsCardInfo>
             </ProductsCard>
-            <ProductsCard to='/sign-up'>
+            <ProductsCard to='/wallet'>
               <ProductsCardInfo>
                 <ProductsCardIcon>
                   <GiPayMoney />

@@ -33,9 +33,10 @@ function Footer() {
     <FooterContainer>
       <FooterSubscription>
         <FooterSubHeading>
-          Join our exclusive membership to receive the latest news and trends
+        Join the crypto revolution
+         
         </FooterSubHeading>
-        <FooterSubText>You can unsubscribe at any time.</FooterSubText>
+        <FooterSubText> Subscribe to our newsletter to receive the latest news and trends</FooterSubText>
         <Form>
           <FormInput name='email' type='email' placeholder='Your Email' />
           <Button fontBig>Subscribe</Button>
